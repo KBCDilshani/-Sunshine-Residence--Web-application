@@ -1,0 +1,115 @@
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:var(--black);
+}
+.container-header h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:var(--black);
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.contact-card:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.contact-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.contact-details {
+    flex: 1;
+}
+.contact-details h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 2rem ;
+}
+.contact-info {
+    margin-top: 10px;
+}
+.contact-info p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 1.7rem ;
+}
+.contact-info p:first-child {
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+
+/*new css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--pink);
+}
+
+body{
+    background: url(images/background-img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact{
+    text-align: center;
+    max-width: 60rem;
+    margin:0 auto;
+}
+
+.contact img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.form-group{
+
+    font-size: 1.7rem;
+    width: 100%;
+    padding:1.2rem 1.4rem;
+    border:var(--border);
+    border-radius: .5rem;
+    flex:1 1 41rem;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.reviews {
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.stars {
+    color: orange;
+}
+
+.checked {
+    color: orange;
+}
+
+.stars .fa-star {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.pagination button:hover {
+    background-color: #005f6b;
+}
+
+.feedback-form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.feedback-form textarea {
+    height: 100px;
+}
+
+.feedback-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.feedback-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.review {
+    position: relative;
+}
+.stars {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: orange;
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.pagination a {
+    color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
